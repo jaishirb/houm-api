@@ -107,10 +107,6 @@ and more pretty stuff like
  - Natural structure, **like you weren't using docker**
  - Production deploy steps [click here](https://gist.github.com/jaishirb/ee6d40f5a61610504f5a2bbeeacce2e4)
 
-Simple and beautiful structure
-
- ![enter image description here](https://i.imgur.com/rUXVwk6.png)
-
 to run  the image follow the next instructions, just for local environment
 
 ## Create Environment file
@@ -141,27 +137,6 @@ to run  the image follow the next instructions, just for local environment
 
     docker-compose exec backend python3 manage.py collectstatic
 
-
-## Pycharm Support
-first, we need to setup the common stuff to active the autocomplete adding the Django Support choosing the manage.py and settings.py files location.
-
-![enter image description here](https://i.imgur.com/yxaLtUc.png)
-
-now we need add the python interpreter what live inside the docker container to the project
-
-Go to preferences and to click in Interpreter then in Project Interpreter and press add
-
-![enter image description here](https://i.imgur.com/DwKsssx.png)
-
-now, do click in Docker, select the image what contains the project name, then write python3 and press ok
-
-![enter image description here](https://i.imgur.com/pI86DZb.png)
-
-press apply and ok, done!.
-
-![enter image description here](https://i.imgur.com/lmpULSQ.png)
-
-now we have configured the interpreter what lives inside our Docker Container in our project
 
 Please, DON'T UPDATE THE DEPENDENCIES ! **unless necessary**
 
