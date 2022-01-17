@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  houm_api_backend_test:
+    container_name: houm_api_backend_test
+    build: .
+    environment:
+      - DJANGO_SECRET_KEY=secret
+      - DJANGO_DEBUG=true
+      - DJANGO_PRODUCTION=false
+      - TESTING=true
+    command: python3 manage.py test
+    volumes:
+      - .:/app
+
+
+
+

@@ -1,0 +1,1 @@
+docker exec -ti osw4l_api python3 manage.py collectstatic --noinput
