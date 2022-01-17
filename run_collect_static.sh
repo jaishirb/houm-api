@@ -1,1 +1,1 @@
-docker exec -ti osw4l_api python3 manage.py collectstatic --noinput
+docker exec -ti houm_api python3 manage.py collectstatic --noinput

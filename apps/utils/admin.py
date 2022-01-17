@@ -1,6 +1,6 @@
 from django.contrib import admin
 # Register your models here.
 
-admin.site.site_header = 'Osw4l Admin'
-admin.site.site_title = 'Osw4l Admin'
-admin.site.index_title = 'Osw4l'
+admin.site.site_header = 'HOUM Admin'
+admin.site.site_title = 'HOUM Admin'
+admin.site.index_title = 'HOUM'
