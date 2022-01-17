@@ -2,7 +2,7 @@
 
 This project is a coding test for applying to HOUM.
 
-#CONCEPT
+# CONCEPT
 This is the concept to be implemented:
 
 Create a REST API that allows the user to:
@@ -11,7 +11,7 @@ Create a REST API that allows the user to:
 - Given a date, returns all the coordinates of the properties that the houmer visited and how long he was in each one. 
 - Given a date, returns all times when the Houmer moved from one place to another with a speed greater than a parameter.
 
-#SOLUTION
+# SOLUTION
 
 Explanation of solution:
 
@@ -43,7 +43,7 @@ the `endpoint` used for this is: `/api/v1/houm/visits` (POST for creating)
     - `date: str -> YYYY-MM-DD format`
     - `velocity: float -> speed limit`
 
-#STEPS 
+# STEPS 
 
 ## create superuser
 
@@ -60,10 +60,10 @@ or you can go to django admin in `http://localhost:4500/admin` and create them.
   - create a company agent
 - at this point you can start 'sending' the locations of the houmer and all the calculation will be done as well as you can use all the functionalities described before in `'SOLUTION'`. In django admin go to `'Houmers historical locations'` and you can list the entries, create, update or delete them, or by using the endpoint with postman.
 
-#RUNNING TESTS
+# RUNNING TESTS
     docker-compose exec backend python3 manage.py test
 
-#THE PROJECT
+# THE PROJECT
 This is a beautiful Django image simple to configure, run and deploy, it was made with a lot of love and dedication for all human beings who love simple things.
 
 this project contains the next libraries
